@@ -1,5 +1,5 @@
 import mysql.connector
-mydb = mysql.connector.connect(host='109.173.130.149', user='user1', password='userpasswd', database='punkty')
+mydb = mysql.connector.connect(host='mysqlserver_ip', user='user1', password='userpasswd', database='punkty')
 mycursor = mydb.cursor()
 
 class Obliczenia:
